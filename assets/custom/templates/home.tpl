@@ -1,0 +1,4 @@
+[[$meta]]
+[[$head]]
+[[$homeContent]]
+[[$footer]]
