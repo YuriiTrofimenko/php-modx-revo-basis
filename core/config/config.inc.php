@@ -3,13 +3,13 @@
  *  MODX Configuration file
  */
 $database_type = 'mysql';
-$database_server = 'localhost:3307';
+$database_server = 'localhost:3306';
 $database_user = 'root';
 $database_password = 'root';
 $database_connection_charset = 'utf8mb4';
 $dbase = 'modx_base';
 $table_prefix = 'modx_';
-$database_dsn = 'mysql:host=localhost:3307;dbname=modx_base;charset=utf8mb4';
+$database_dsn = 'mysql:host=localhost:3306;dbname=modx_base;charset=utf8mb4';
 $config_options = array (
 );
 $driver_options = array (
@@ -23,27 +23,27 @@ $https_port = '443';
 $uuid = '218283a5-d4aa-4ccc-875f-f7cac948f7de';
 
 if (!defined('MODX_CORE_PATH')) {
-    $modx_core_path= 'C:/OSPanel/domains/localhost/core/';
+    $modx_core_path= 'C:/openserver/domains/localhost/core/';
     define('MODX_CORE_PATH', $modx_core_path);
 }
 if (!defined('MODX_PROCESSORS_PATH')) {
-    $modx_processors_path= 'C:/OSPanel/domains/localhost/core/model/modx/processors/';
+    $modx_processors_path= 'C:/openserver/domains/localhost/core/model/modx/processors/';
     define('MODX_PROCESSORS_PATH', $modx_processors_path);
 }
 if (!defined('MODX_CONNECTORS_PATH')) {
-    $modx_connectors_path= 'C:/OSPanel/domains/localhost/connectors/';
+    $modx_connectors_path= 'C:/openserver/domains/localhost/connectors/';
     $modx_connectors_url= '/connectors/';
     define('MODX_CONNECTORS_PATH', $modx_connectors_path);
     define('MODX_CONNECTORS_URL', $modx_connectors_url);
 }
 if (!defined('MODX_MANAGER_PATH')) {
-    $modx_manager_path= 'C:/OSPanel/domains/localhost/manager/';
+    $modx_manager_path= 'C:/openserver/domains/localhost/manager/';
     $modx_manager_url= '/manager/';
     define('MODX_MANAGER_PATH', $modx_manager_path);
     define('MODX_MANAGER_URL', $modx_manager_url);
 }
 if (!defined('MODX_BASE_PATH')) {
-    $modx_base_path= 'C:/OSPanel/domains/localhost/';
+    $modx_base_path= 'C:/openserver/domains/localhost/';
     $modx_base_url= '/';
     define('MODX_BASE_PATH', $modx_base_path);
     define('MODX_BASE_URL', $modx_base_url);
@@ -75,7 +75,7 @@ if (!defined('MODX_SITE_URL')) {
     define('MODX_SITE_URL', $site_url);
 }
 if (!defined('MODX_ASSETS_PATH')) {
-    $modx_assets_path= 'C:/OSPanel/domains/localhost/assets/';
+    $modx_assets_path= 'C:/openserver/domains/localhost/assets/';
     $modx_assets_url= '/assets/';
     define('MODX_ASSETS_PATH', $modx_assets_path);
     define('MODX_ASSETS_URL', $modx_assets_url);
